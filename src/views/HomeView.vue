@@ -4,8 +4,9 @@
       <div class="content">
       <div v-for="(character, index) in characters" :key="index">
       <img :src="character.image" alt="">
-      <h1> {{character.name}} </h1>
-      <h4> {{character.gender}} </h4>
+      <h2> {{character.name}} </h2>
+      <h4> {{character.species}} </h4>
+      <h4> {{character.status}} </h4>
       </div>
     </div>
   </div>
@@ -41,11 +42,41 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+body {
+    font-family: "Crimson Text", "Arial", serif;
+    font-size: 120%;
+}
 .content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 10px;
 }
+
+img {
+  height: 50%;
+  width: 50%;
+  border-radius: 1rem;
+}
+h1 {
+  color: #2c5a52;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  background: #30b191;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+h4 {
+  margin: 1rem;
+  color: #ffffff;
+  background: #8b8b8b;
+  border-radius: 0.4rem;
+  font-weight: inherit;
+  padding: 0.2rem;
+}
+
 </style>
