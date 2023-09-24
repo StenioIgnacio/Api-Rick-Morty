@@ -2,7 +2,7 @@
 
 # Matéria: DESENVOLV DE APLICACOES P/ A INTERNET
 
-# Nome: StÊnio Ribeiro Ignácio
+# Nome: Stênio Ribeiro Ignácio
 # RA: 1937239
 
 # Objetivo do projeto:
