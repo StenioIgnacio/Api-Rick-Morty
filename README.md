@@ -8,3 +8,4 @@
 # Objetivo do projeto:
 O objetivo é listar os personagens da api do Rick & Morty.
 Link da api utilizada: https://rickandmortyapi.com/api/
+Utlizei a lib axios para algumas requisições: https://br.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
